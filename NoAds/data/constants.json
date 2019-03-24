@@ -1,0 +1,56 @@
+{
+    "config": {
+        "apiKey": "AIzaSyBAz77PdBCGvP__6wh2PSjamIyE73dvmuw",
+        "authDomain": "noads-98f5d.firebaseapp.com",
+        "databaseURL": "https://noads-98f5d.firebaseio.com",
+        "projectId": "noads-98f5d",
+        "storageBucket": "noads-98f5d.appspot.com",
+        "messagingSenderId": "681699974464",
+        "serviceAccount": "data/noads_key.json"
+    },
+
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36",
+        "Pragma": "no-cache"
+    },
+
+    "information": [{
+            "name": "panorama_sport",
+            "url": "http://www.panorama.com.al/sport/",
+            "title": "title",
+            "body": ".article_content p",
+            "links": [".tc-desc a"]
+        },
+        {
+            "name": "panorama",
+            "url": "http://www.panorama.com.al/",
+            "title": "title",
+            "body": ".td-post-content p",
+            "links": [".td-block-row a"]
+        },
+        {
+            "name": "new_york_times",
+            "url": "https://nytimes.com",
+            "title": "title",
+            "body": ".css-1h6whtw p",
+            "links": [".story-heading a"]
+        },
+        {
+            "name": "mirror",
+            "url": "https://www.mirror.co.uk/",
+            "title": "title",
+            "body": ".article-body p",
+            "links": [".inner a"]
+        },
+        {
+            "name": "sabah",
+            "url": "https://www.dailysabah.com/",
+            "title": "title",
+            "body": ".txtInWrapper p",
+            "links": [".topHeadline a"]
+        }
+    ],
+
+    "positive": "rise rose growth high increase stability ties develop mutual lead even",
+    "negative": "fall fell slipped dropped down impose detention beats losing up "
+}

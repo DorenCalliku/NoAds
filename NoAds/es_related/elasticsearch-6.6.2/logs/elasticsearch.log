@@ -1,0 +1,52 @@
+[2019-03-13T10:01:02,658][INFO ][o.e.e.NodeEnvironment    ] [hrqhBLI] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [162.1gb], net total_space [228.1gb], types [ext4]
+[2019-03-13T10:01:02,671][INFO ][o.e.e.NodeEnvironment    ] [hrqhBLI] heap size [990.7mb], compressed ordinary object pointers [true]
+[2019-03-13T10:01:02,674][INFO ][o.e.n.Node               ] [hrqhBLI] node name derived from node ID [hrqhBLIvR2OMVdScfIP_TQ]; set [node.name] to override
+[2019-03-13T10:01:02,675][INFO ][o.e.n.Node               ] [hrqhBLI] version[6.6.2], pid[11468], build[default/tar/3bd3e59/2019-03-06T15:16:26.864148Z], OS[Linux/4.15.0-46-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_201/25.201-b09]
+[2019-03-13T10:01:02,676][INFO ][o.e.n.Node               ] [hrqhBLI] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch-3762004889424312827, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/doren/Desktop/Python/NoAds/elasticsearch-6.6.2, -Des.path.conf=/home/doren/Desktop/Python/NoAds/elasticsearch-6.6.2/config, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+[2019-03-13T10:01:07,133][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [aggs-matrix-stats]
+[2019-03-13T10:01:07,134][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [analysis-common]
+[2019-03-13T10:01:07,134][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [ingest-common]
+[2019-03-13T10:01:07,134][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [lang-expression]
+[2019-03-13T10:01:07,134][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [lang-mustache]
+[2019-03-13T10:01:07,134][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [lang-painless]
+[2019-03-13T10:01:07,134][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [mapper-extras]
+[2019-03-13T10:01:07,134][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [parent-join]
+[2019-03-13T10:01:07,135][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [percolator]
+[2019-03-13T10:01:07,135][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [rank-eval]
+[2019-03-13T10:01:07,135][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [reindex]
+[2019-03-13T10:01:07,135][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [repository-url]
+[2019-03-13T10:01:07,135][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [transport-netty4]
+[2019-03-13T10:01:07,135][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [tribe]
+[2019-03-13T10:01:07,135][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-ccr]
+[2019-03-13T10:01:07,136][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-core]
+[2019-03-13T10:01:07,136][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-deprecation]
+[2019-03-13T10:01:07,136][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-graph]
+[2019-03-13T10:01:07,136][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-ilm]
+[2019-03-13T10:01:07,136][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-logstash]
+[2019-03-13T10:01:07,136][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-ml]
+[2019-03-13T10:01:07,137][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-monitoring]
+[2019-03-13T10:01:07,137][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-rollup]
+[2019-03-13T10:01:07,137][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-security]
+[2019-03-13T10:01:07,137][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-sql]
+[2019-03-13T10:01:07,137][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-upgrade]
+[2019-03-13T10:01:07,138][INFO ][o.e.p.PluginsService     ] [hrqhBLI] loaded module [x-pack-watcher]
+[2019-03-13T10:01:07,138][INFO ][o.e.p.PluginsService     ] [hrqhBLI] no plugins loaded
+[2019-03-13T10:01:14,715][INFO ][o.e.x.s.a.s.FileRolesStore] [hrqhBLI] parsed [0] roles from file [/home/doren/Desktop/Python/NoAds/elasticsearch-6.6.2/config/roles.yml]
+[2019-03-13T10:01:16,815][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [hrqhBLI] [controller/11544] [Main.cc@109] controller (64 bit): Version 6.6.2 (Build 62531230b275d3) Copyright (c) 2019 Elasticsearch BV
+[2019-03-13T10:01:17,530][DEBUG][o.e.a.ActionModule       ] [hrqhBLI] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-03-13T10:01:18,022][INFO ][o.e.d.DiscoveryModule    ] [hrqhBLI] using discovery type [zen] and host providers [settings]
+[2019-03-13T10:01:19,260][INFO ][o.e.n.Node               ] [hrqhBLI] initialized
+[2019-03-13T10:01:19,261][INFO ][o.e.n.Node               ] [hrqhBLI] starting ...
+[2019-03-13T10:01:19,942][INFO ][o.e.t.TransportService   ] [hrqhBLI] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-03-13T10:01:20,030][WARN ][o.e.b.BootstrapChecks    ] [hrqhBLI] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-03-13T10:01:23,114][INFO ][o.e.c.s.MasterService    ] [hrqhBLI] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {hrqhBLI}{hrqhBLIvR2OMVdScfIP_TQ}{62WKXrLARoWsCue3yURyng}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=4009562112, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-03-13T10:01:23,121][INFO ][o.e.c.s.ClusterApplierService] [hrqhBLI] new_master {hrqhBLI}{hrqhBLIvR2OMVdScfIP_TQ}{62WKXrLARoWsCue3yURyng}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=4009562112, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {hrqhBLI}{hrqhBLIvR2OMVdScfIP_TQ}{62WKXrLARoWsCue3yURyng}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=4009562112, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-03-13T10:01:23,212][INFO ][o.e.h.n.Netty4HttpServerTransport] [hrqhBLI] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-03-13T10:01:23,212][INFO ][o.e.n.Node               ] [hrqhBLI] started
+[2019-03-13T10:01:23,610][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [hrqhBLI] Failed to clear cache for realms [[]]
+[2019-03-13T10:01:23,699][INFO ][o.e.l.LicenseService     ] [hrqhBLI] license [ea42bdc3-fb69-4e8d-a54b-705905dea254] mode [basic] - valid
+[2019-03-13T10:01:23,720][INFO ][o.e.g.GatewayService     ] [hrqhBLI] recovered [0] indices into cluster_state
+[2019-03-13T10:14:46,217][INFO ][o.e.c.m.MetaDataCreateIndexService] [hrqhBLI] [mirror] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-03-13T10:14:49,788][INFO ][o.e.c.m.MetaDataMappingService] [hrqhBLI] [mirror/Jxwx9rNkTnarh12WCthlsg] create_mapping [news]
+[2019-03-13T10:23:27,954][INFO ][o.e.c.m.MetaDataCreateIndexService] [hrqhBLI] [sabah] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-03-13T10:23:30,233][INFO ][o.e.c.m.MetaDataMappingService] [hrqhBLI] [sabah/ny7GsmL-QrGkplWDtHzGTw] create_mapping [news]
